@@ -1,4 +1,4 @@
-var num = 7;
+
 function numberMagic(num){
   // console.log("hello world");
   if ( evenNumber(num) ) {
@@ -8,8 +8,8 @@ function numberMagic(num){
   } else if ( oddNumber(num)  ) {
       console.log( oddNumber(num) );
     // return num * 3;
-  } else if ( noNumber (num) ) {
-    console.log(noNumber(num) ) ;
+  } else if ( noNumber(num) ) {
+    console.log(noNumber(num)) ;
 
   }
 }
@@ -25,17 +25,16 @@ function oddNumber (num) {
     return num * 3
   }
 
-function noNumber(num) {
+}
+
+function noNumber (num) {
   if(num === 'a') {
     return 'That is not a number!'
   }
-
-
-}
 }
 
 // numberMagic();
-numberMagic(2);
+// numberMagic('a');
 //
 //
 // numberMagic(3);
@@ -46,5 +45,5 @@ numberMagic(2);
 // numberMagic(8);
 // // 16
 //
-// numberMagic(9)
+numberMagic(9)
 // 27
